@@ -1,10 +1,3 @@
-//
-//  XcodeReleasesUITestsLaunchTests.swift
-//  XcodeReleasesUITests
-//
-//  Created by Kurt Jacobs on 2025/08/16.
-//
-
 import XCTest
 
 final class XcodeReleasesUITestsLaunchTests: XCTestCase {

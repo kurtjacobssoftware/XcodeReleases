@@ -1,17 +1,16 @@
-//
-//  XcodeReleasesApp.swift
-//  XcodeReleases
-//
-//  Created by Kurt Jacobs on 2025/08/16.
-//
+// Kurt Jacobs
 
 import SwiftUI
 
 @main
 struct XcodeReleasesApp: App {
+    
+    private var applicationDependencies: ApplicationDependencyContainer = ApplicationDependencyContainer()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            XcodeReleasesListingView(viewModel: XcodeReleasesListingViewModel(dependencies: applicationDependencies))
+                .environmentObject(applicationDependencies)
         }
     }
 }

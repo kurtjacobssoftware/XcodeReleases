@@ -1,10 +1,3 @@
-//
-//  XcodeReleasesTests.swift
-//  XcodeReleasesTests
-//
-//  Created by Kurt Jacobs on 2025/08/16.
-//
-
 import Testing
 @testable import XcodeReleases
 
