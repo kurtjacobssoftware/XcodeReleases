@@ -1,4 +1,4 @@
-### Simple XcodeReleases Tracking App (targets iOS 26) and release notes viewer.
+### Simple MVVM Clean XcodeReleases Tracking App (targets iOS 26) and release notes viewer.
 
 <p float="left">
 <img height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2025-09-18 at 22 50 54" src="https://github.com/user-attachments/assets/4e84e09e-e7d5-4cae-879e-65b9d602e2b6" width=25%/>
